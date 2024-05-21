@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" id="stylesheet">
+    <link rel="stylesheet" href="estilos_accesibles.css">
+    <title>Formulario para búsqueda de hoteles</title>
+    <script src="cambiarEstilo.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Cuestionario para búsqueda de hoteles</h1>
+    </header>
+    
+    <form action="formulario">
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+        
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+        
+        <label for="Repetir">Repetir contraseña:</label>
+        <input type="password" id="Repetir" name="repetir" required>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+        
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+        
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+
+        <label for="provincia">Provincia:</label>
+        <input type="text" id="provincia" name="provincia" required>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+
+        <label for="huespedes">Número de huéspedes:</label>
+        <input type="text" id="huespedes" name="huespedes" required>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+        
+        <fieldset>
+            <legend>Servicios:</legend>
+            <input type="checkbox" id="wifi_servicio" name="servicio" value="wifi">
+            <label for="wifi_servicio">Aire Acondicionado</label>
+            
+            <input type="checkbox" id="caja_servicio" name="servicio" value="caja">
+            <label for="caja_servicio">Caja fuerte</label>
+            
+            <input type="checkbox" id="bar_servicio" name="servicio" value="bar">
+            <label for="bar_servicio">Minibar</label>
+            
+            <input type="checkbox" id="internet_servicio" name="servicio" value="internet">
+            <label for="internet_servicio">Conexión a internet</label>
+            <br><br>
+            <!-- Más opciones de servicio aquí -->
+        </fieldset>
+        
+        <fieldset>
+            <legend>Tipo de habitación:</legend>
+            <input type="checkbox" id="individual_habitacion" name="habitacion" value="individual">
+            <label for="individual_habitacion">Individual</label>
+            
+            <input type="checkbox" id="doble_habitacion" name="habitacion" value="doble">
+            <label for="doble_habitacion">Doble</label>
+            
+            <input type="checkbox" id="suite_habitacion" name="habitacion" value="suite">
+            <label for="suite_habitacion">Suite</label>
+            <br><br>
+            <!-- Más opciones de habitación aquí -->
+        </fieldset>
+        
+        <fieldset>
+            <legend>Pensión:</legend>
+            <input type="checkbox" id="alojamiento_pension" name="pension" value="alojamiento">
+            <label for="alojamiento_pension">Alojamiento</label>
+            
+            <input type="checkbox" id="desayuno_pension" name="pension" value="desayuno">
+            <label for="desayuno_pension">Desayuno</label>
+            
+            <input type="checkbox" id="media_pension" name="pension" value="media">
+            <label for="media_pension">Media</label>
+            
+            <input type="checkbox" id="completa_pension" name="pension" value="completa">
+            <label for="completa_pension">Completa</label>
+            <br><br>
+            <!-- Más opciones de pensión aquí -->
+        </fieldset>
+        
+        <label for="comentarios">Comentarios o sugerencias:</label>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="100"></textarea><br><br>
+
+        <label for="correo">E-mail de contacto:</label>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+        <textarea name="correo" id="correo" cols="30" rows="2"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="politica_privacidad" name="politica_privacidad" value="acepto">
+        <label for="politica_privacidad">Acepto la política de privacidad</label>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+
+        <button type="submit" id="botones">Enviar</button>
+        <button type="reset">Limpiar</button>
+        <a href="./detalles.html">Justificación</a>
+        <br><br>
+
+    </form>
+    
+    <button id="btnEstandar">Diseño Estándar</button>
+    <button id="btnAccesible">Diseño Accesible</button>
+
+</body>
+</html>

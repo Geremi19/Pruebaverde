@@ -1,0 +1,62 @@
+/* Importar estilos del CSS principal */
+@import url("estilos.css");
+
+body {
+    background-color: #111010; /* Cambiar el color de fondo a blanco */
+    
+}
+
+header {
+    background-color: #333333; 
+    box-shadow: none; 
+}
+
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #464646;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #ffffff; /* Cambiar el color del texto del encabezado a blanco */
+}
+
+label,
+input[type="text"],
+input[type="password"],
+textarea {
+    color: #000000; /* Cambiar el color del texto de las etiquetas y los campos de entrada a negro */
+    background-color: #f2f2f2; 
+    border: 1px solid #000000; 
+}
+
+button[type="submit"],
+button[type="reset"],
+button {
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilos para el botón de diseño estándar */
+#btnEstandar {
+    background-color: #007bff; /* Azul */
+    color: #fff;
+}
+
+/* Estilos para el botón de diseño accesible */
+#btnAccesible {
+    background-color: #28a745; /* Verde */
+    color: #fff;
+}
+
+button:active {
+    transform: translateY(1px); /* Efecto de presionado */
+}
+
+button:hover {
+    opacity: 0.8; 
+}

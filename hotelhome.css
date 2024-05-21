@@ -1,0 +1,125 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; 
+    background-image: url('swimming-pool.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #000000; /* Color de fondo del encabezado */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-weight: 700; /* Grosor de la fuente */
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff; /* Color de los enlaces del menú */
+    font-weight: 400; /* Grosor de la fuente del menú */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.destacado {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.destacado h2 {
+    font-size: 2.5rem; /* Tamaño del título */
+    margin-bottom: 20px;
+    font-weight: 700; /* Grosor de la fuente del título */
+}
+
+.destacado p {
+    font-size: 1.1rem; /* Tamaño del texto */
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700; /* Grosor de la fuente del botón */
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.8); 
+    color: #fff;
+    padding: 20px 0;
+    font-size: 0.9rem; 
+    text-align: center; 
+}
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff; /* Color de los enlaces del menú */
+    font-weight: 400; /* Grosor de la fuente del menú */
+    padding: 10px 20px; /* Espacio alrededor del texto del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave al cambiar el color de fondo */
+    background-color: rgba(0, 0, 0, 0); /* Color de fondo inicial transparente */
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Color de fondo al pasar el ratón */
+}
